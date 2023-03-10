@@ -40,7 +40,7 @@
 ;; fallback to http there
 (if (eq system-type 'windows-nt)
     (add-to-list 'package-archives
-                 '("melpa" . "http://melpa.org/packages/") t)
+                 '("melpa" . "https://melpa.org/packages/") t)
   (add-to-list 'package-archives
                '("melpa" . "https://melpa.org/packages/") t))
 
